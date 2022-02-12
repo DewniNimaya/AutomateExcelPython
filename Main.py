@@ -4,6 +4,7 @@
 from json import load
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
+
 """ wb = load_workbook("Grades.xlsx")
 ws = wb.active
 print(ws['A2'].value)
@@ -61,13 +62,13 @@ ws = wb.active
 ws.merge_cells("A1:D2")
 wb.save("Dew.xlsx") """
 
-#7. inserting and deleting rows
+#7. inserting and deleting rows-----------------------------
 """ wb = load_workbook("Dew.xlsx")
 ws = wb.active
 ws.delete_cols(2)
 wb.save("Dew.xlsx") """
 
-#8. copying and moving cells
+#8. copying and moving cells----------------------------------
 """ wb = load_workbook("Dew.xlsx")
 ws = wb.active
 ws.move_range("C1:D11", rows = 2, cols = 2)

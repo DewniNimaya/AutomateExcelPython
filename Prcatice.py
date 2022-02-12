@@ -3,7 +3,7 @@ from openpyxl import Workbook, workbook, load_workbook
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import fonts
 
-#create xl using python code
+#create excel using python code
 
 data = {
     "Joe":{
